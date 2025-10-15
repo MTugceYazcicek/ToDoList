@@ -1,4 +1,5 @@
 # Basit Yapılacaklar (To-Do) Uygulaması
+To-do List
 
 Bu proje, **HTML, CSS, JavaScript ve Node.js/Express** kullanılarak geliştirilmiş basit bir yapılacaklar (To-Do) uygulamasıdır. Kullanıcılar görev ekleyebilir, görüntüleyebilir ve silebilir. Veri tabanı olarak **SQL Server** kullanılmıştır.
 
