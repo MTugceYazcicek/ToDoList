@@ -1,0 +1,99 @@
+/* Genel Sayfa Ayarları */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+    padding-top: 60px;
+}
+
+/* Navbar */
+.navbar {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff !important;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+/* Başlıklar */
+h1, h2, h3 {
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+/* Blog Kartları */
+.card {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: none;
+    border-radius: 12px;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+/* Modal İçeriği */
+.modal-content {
+    border-radius: 12px;
+}
+
+/* Blog Ekle Formu */
+#blogForm {
+    background-color: #ffffff;
+    border: 1px solid #dee2e6;
+    border-radius: 12px;
+}
+#gelecekblog {
+  background: url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=1400&q=80') no-repeat center center;
+  background-size: cover;
+  padding: 60px 0;
+}
+
+
+#blogForm .form-control {
+    border-radius: 8px;
+}
+
+#blogForm .btn-primary {
+    background-color: #007bff;
+    border: none;
+}
+
+#blogForm .btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* Footer */
+footer {
+    background-color: #ffffff;
+    border-top: 1px solid #dee2e6;
+    margin-top: 60px;
+    padding: 20px 0;
+}
+
+footer .row div {
+    padding: 10px 0;
+    font-weight: 500;
+}
+
+/* Responsive Kartlar */
+@media (max-width: 768px) {
+    .card-img-top {
+        height: 150px;
+    }
+
+    .navbar-brand {
+        font-size: 1.1rem;
+    }
+}
